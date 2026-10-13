@@ -96,6 +96,37 @@ def profile():
     )
 
 
+def recent_repos(count=6):
+    """Most recently pushed public repos on the personal account, minus this profile repo."""
+    d = gql(f"""{{ user(login: "{PERSONAL}") {{
+        repositories(ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC, first: {count + 1},
+                     orderBy: {{field: PUSHED_AT, direction: DESC}}) {{
+          nodes {{ name description url primaryLanguage {{ name }} }} }} }} }}""")
+    nodes = [r for r in d["user"]["repositories"]["nodes"] if r["name"] != PERSONAL]
+    return nodes[:count]
+
+
+def projects_table(repos):
+    def cell(r):
+        blurb = r["description"] or (r["primaryLanguage"] or {}).get("name") or ""
+        return f'**[{r["name"]}]({r["url"]})**<br>{blurb.replace("|", "/")}'
+    lines = ["| | |", "|---|---|"]
+    for i in range(0, len(repos), 2):
+        pair = [cell(r) for r in repos[i:i + 2]] + [""]
+        lines.append(f"| {pair[0]} | {pair[1]} |")
+    return "\n".join(lines)
+
+
+def update_readme(table):
+    """Swap the table between the projects markers; the rest of the README is hand-written."""
+    path = ROOT / "README.md"
+    text = path.read_text(encoding="utf-8")
+    start, end = "<!-- projects:start -->", "<!-- projects:end -->"
+    head, rest = text.split(start, 1)
+    _, tail = rest.split(end, 1)
+    path.write_text(f"{head}{start}\n{table}\n{end}{tail}", encoding="utf-8")
+
+
 def uptime(since):
     now = datetime.now(timezone.utc)
     months = (now.year - since.year) * 12 + now.month - since.month
@@ -427,6 +458,9 @@ def main():
         (ASSETS / f"banner-{name}.svg").write_text(banner(t), encoding="utf-8")
         (ASSETS / f"profile-{name}.svg").write_text(profile_svg(t, grid, rows), encoding="utf-8")
         (ASSETS / f"activity-{name}.svg").write_text(activity(t, merged, p_total, w_total), encoding="utf-8")
+    repos = recent_repos()
+    update_readme(projects_table(repos))
+    print(f"projects: {[r['name'] for r in repos]}", file=sys.stderr)
     print(f"ok: {p_total} personal + {w_total} work, {active} active days, "
           f"portrait={PORTRAIT}, langs={me['langs']}", file=sys.stderr)
 

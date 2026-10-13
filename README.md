@@ -15,13 +15,15 @@
 
 <sub>This is my work account at Qilin Lab, where my commits live in private repos. My personal account is [@devanshc777](https://github.com/devanshc777), which carries the same page with its own avatar. The graph above adds both together. Every panel is an SVG rebuilt daily from live GitHub data.</sub>
 
-### Things I've built
+### Latest builds
 
+<!-- projects:start -->
 | | |
 |---|---|
-| **[dj-holo](https://github.com/devanshc777/dj-holo)**<br>Hand-tracked browser DJ deck. Webcam gestures drive two decks and FX. | **[photobooth](https://github.com/devanshc777/photobooth)**<br>Browser photobooth: four shots, nine frames, a print that slides out of a slot. |
-| **[learn-the-code](https://github.com/devanshc777/learn-the-code)**<br>Agent skill that turns any repo into a guided learning doc. | **[yt-vault](https://github.com/devanshc777/yt-vault)**<br>Local YouTube transcript vault: yt-dlp CLI plus a FastAPI reading room. |
-| **[council-of-personas](https://github.com/devanshc777/council-of-personas)**<br>Karpathy's LLM Council adapted to run inside one Claude session. | **[MindEase](https://github.com/Mind-Ease-MINDSHORT/mindshort-frontend)**<br>AI mental-health triage platform. SIH 2025, All India Rank 6. |
+| **[computing-life](https://github.com/devanshc777/computing-life)**<br>Genetic algorithms, hill climbing and simulated annealing race to build Game of Life objects from random 16x16 seeds. 8-bit browser demo + benchmark, zero dependencies. | **[180dc-muj-website](https://github.com/devanshc777/180dc-muj-website)**<br>180 Degrees Consulting MUJ — official website, 2026 |
+| **[music-fetch](https://github.com/devanshc777/music-fetch)**<br>Claude Code skill: pull audio from YouTube/yt-dlp sources into a local music inbox for dj-holo | **[dj-study](https://github.com/devanshc777/dj-study)**<br>Claude Code skill: study DJ technique from YouTube transcripts into notes and reproducible dj-holo settings |
+| **[yt-vault](https://github.com/devanshc777/yt-vault)**<br>Local YouTube transcript vault: yt-dlp CLI + FastAPI reading room, saves clean markdown notes | **[dj-holo](https://github.com/devanshc777/dj-holo)**<br>Hand-tracked browser DJ deck: webcam gestures, two decks, FX, synthesized demo tracks |
+<!-- projects:end -->
 
 **Open source:** [Apicurio Registry](https://github.com/Apicurio/apicurio-registry) (CNCF Sandbox): [#9965](https://github.com/Apicurio/apicurio-registry/pull/9965) merged.
 
