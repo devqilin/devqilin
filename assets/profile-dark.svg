@@ -46,8 +46,8 @@
 <line class="fade" x1="448" y1="197.5" x2="856" y2="197.5" stroke="#1f2a36" stroke-dasharray="2 3" style="animation-delay:1.30s"/>
 <text class="fade" x="450" y="223.0" font-size="11.5" style="animation-delay:1.46s"><tspan fill="#6b7a8c">Languages</tspan><tspan x="562" fill="#e6f4ff">TypeScript, Python, JavaScript</tspan></text>
 <text class="fade" x="450" y="244.5" font-size="11.5" style="animation-delay:1.62s"><tspan fill="#6b7a8c">Repositories</tspan><tspan x="562" fill="#e6f4ff">18 public · 5 contributed</tspan></text>
-<text class="fade" x="450" y="266.0" font-size="11.5" style="animation-delay:1.78s"><tspan fill="#6b7a8c">Contributions</tspan><tspan x="562" fill="#e6f4ff">1,044 / year · 101 active days</tspan></text>
-<text class="fade" x="450" y="287.5" font-size="11.5" style="animation-delay:1.94s"><tspan fill="#6b7a8c">Merged PRs</tspan><tspan x="562" fill="#e6f4ff">2</tspan></text>
+<text class="fade" x="450" y="266.0" font-size="11.5" style="animation-delay:1.78s"><tspan fill="#6b7a8c">Contributions</tspan><tspan x="562" fill="#e6f4ff">1,045 / year · 101 active days</tspan></text>
+<text class="fade" x="450" y="287.5" font-size="11.5" style="animation-delay:1.94s"><tspan fill="#6b7a8c">Merged PRs</tspan><tspan x="562" fill="#e6f4ff">3</tspan></text>
 <text class="fade" x="450" y="309.0" font-size="11.5" style="animation-delay:2.10s"><tspan fill="#6b7a8c">Uptime</tspan><tspan x="562" fill="#e6f4ff">3y 8m</tspan></text>
 <line class="fade" x1="448" y1="326.5" x2="856" y2="326.5" stroke="#1f2a36" stroke-dasharray="2 3" style="animation-delay:2.26s"/>
 <text class="fade" x="450" y="352.0" font-size="11.5" style="animation-delay:2.42s"><tspan fill="#6b7a8c">SIH 2025</tspan><tspan x="562" fill="#e6f4ff">MindEase · All India Rank 6</tspan></text>
