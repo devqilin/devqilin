@@ -45,8 +45,8 @@
 <text class="fade" x="450" y="180.0" font-size="11.5" style="animation-delay:1.14s"><tspan fill="#6a7380">Status</tspan><tspan x="562" fill="#06080b">Building | Shipping | Open source</tspan></text>
 <line class="fade" x1="448" y1="197.5" x2="856" y2="197.5" stroke="#d5dbe3" stroke-dasharray="2 3" style="animation-delay:1.30s"/>
 <text class="fade" x="450" y="223.0" font-size="11.5" style="animation-delay:1.46s"><tspan fill="#6a7380">Languages</tspan><tspan x="562" fill="#06080b">TypeScript, Python, JavaScript</tspan></text>
-<text class="fade" x="450" y="244.5" font-size="11.5" style="animation-delay:1.62s"><tspan fill="#6a7380">Repositories</tspan><tspan x="562" fill="#06080b">18 public · 5 contributed</tspan></text>
-<text class="fade" x="450" y="266.0" font-size="11.5" style="animation-delay:1.78s"><tspan fill="#6a7380">Contributions</tspan><tspan x="562" fill="#06080b">1,045 / year · 101 active days</tspan></text>
+<text class="fade" x="450" y="244.5" font-size="11.5" style="animation-delay:1.62s"><tspan fill="#6a7380">Repositories</tspan><tspan x="562" fill="#06080b">17 public · 7 contributed</tspan></text>
+<text class="fade" x="450" y="266.0" font-size="11.5" style="animation-delay:1.78s"><tspan fill="#6a7380">Contributions</tspan><tspan x="562" fill="#06080b">1,057 / year · 103 active days</tspan></text>
 <text class="fade" x="450" y="287.5" font-size="11.5" style="animation-delay:1.94s"><tspan fill="#6a7380">Merged PRs</tspan><tspan x="562" fill="#06080b">3</tspan></text>
 <text class="fade" x="450" y="309.0" font-size="11.5" style="animation-delay:2.10s"><tspan fill="#6a7380">Uptime</tspan><tspan x="562" fill="#06080b">3y 8m</tspan></text>
 <line class="fade" x1="448" y1="326.5" x2="856" y2="326.5" stroke="#d5dbe3" stroke-dasharray="2 3" style="animation-delay:2.26s"/>
