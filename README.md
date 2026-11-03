@@ -20,7 +20,7 @@
 <!-- projects:start -->
 | | |
 |---|---|
-| **[dhwani](https://github.com/devanshc777/dhwani)**<br>Python | **[180dc-muj-website](https://github.com/devanshc777/180dc-muj-website)**<br>180 Degrees Consulting MUJ — official website, 2026 |
+| **[180dc-muj-website](https://github.com/devanshc777/180dc-muj-website)**<br>180 Degrees Consulting MUJ — official website, 2026 | **[dhwani](https://github.com/devanshc777/dhwani)**<br>Python |
 | **[ldr-jigsaw](https://github.com/devanshc777/ldr-jigsaw)**<br>TypeScript | **[resnet-degradation](https://github.com/devanshc777/resnet-degradation)**<br>Python |
 | **[computing-life](https://github.com/devanshc777/computing-life)**<br>Genetic algorithms, hill climbing and simulated annealing race to build Game of Life objects from random 16x16 seeds. 8-bit browser demo + benchmark, zero dependencies. | **[music-fetch](https://github.com/devanshc777/music-fetch)**<br>Claude Code skill: pull audio from YouTube/yt-dlp sources into a local music inbox for dj-holo |
 <!-- projects:end -->
