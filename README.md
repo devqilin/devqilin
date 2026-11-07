@@ -21,8 +21,8 @@
 | | |
 |---|---|
 | **[180dc-muj-website](https://github.com/devanshc777/180dc-muj-website)**<br>180 Degrees Consulting MUJ — official website, 2026 | **[dhwani](https://github.com/devanshc777/dhwani)**<br>Python |
-| **[ldr-jigsaw](https://github.com/devanshc777/ldr-jigsaw)**<br>TypeScript | **[resnet-degradation](https://github.com/devanshc777/resnet-degradation)**<br>Python |
-| **[computing-life](https://github.com/devanshc777/computing-life)**<br>Genetic algorithms, hill climbing and simulated annealing race to build Game of Life objects from random 16x16 seeds. 8-bit browser demo + benchmark, zero dependencies. | **[music-fetch](https://github.com/devanshc777/music-fetch)**<br>Claude Code skill: pull audio from YouTube/yt-dlp sources into a local music inbox for dj-holo |
+| **[cyber-gt-game](https://github.com/devanshc777/cyber-gt-game)**<br>Attacker vs Defender security game with game-theory analysis (CSE3145 project) | **[ldr-jigsaw](https://github.com/devanshc777/ldr-jigsaw)**<br>TypeScript |
+| **[resnet-degradation](https://github.com/devanshc777/resnet-degradation)**<br>Python | **[computing-life](https://github.com/devanshc777/computing-life)**<br>Genetic algorithms, hill climbing and simulated annealing race to build Game of Life objects from random 16x16 seeds. 8-bit browser demo + benchmark, zero dependencies. |
 <!-- projects:end -->
 
 **Open source:** [Apicurio Registry](https://github.com/Apicurio/apicurio-registry) (CNCF Sandbox): [#9965](https://github.com/Apicurio/apicurio-registry/pull/9965) merged.
